@@ -1,0 +1,39 @@
+**Giao Thức Dùng Để Giao Tiếp Giữa Website Với Mạng Xã Hội**
+
+**1. Định Nghĩa:**
+Giao thức giao tiếp giữa website với mạng xã hội là tập hợp quy tắc và giao thức cho phép các website tương tác với các nền tảng mạng xã hội như Facebook, Instagram, Twitter... Thông qua giao thức này, website có thể truy cập dữ liệu, chia sẻ thông tin và thực hiện nhiều chức năng khác.
+
+**2. Tính Chất/ Đặc Điểm/ Loại:**
+
+- **Dựa trên HTTP/HTTPS:** Hầu hết các giao thức giao tiếp sử dụng HTTP/HTTPS cho việc truyền dữ liệu.
+- **Sử dụng OAuth:**
+  - OAuth 2.0 là giao thức phổ biến cho việc xác thực và phân quyền truy cập.
+  - Cho phép người dùng đăng nhập bằng tài khoản mạng xã hội.
+
+- **API (Application Programming Interface):**
+  - Facebook Graph API: Cho phép truy cập dữ liệu người dùng, bài đăng, bình luận.
+  - Instagram Graph API: Hỗ trợ truy cập hình ảnh, video, tòa độ.
+
+- **Tính bảo mật:**
+  - Sử dụng Access Token cho phép truy cập có giới hạn.
+  - Hạn chế quyền truy cập dựa trên phần quyền người dùng.
+
+**3. Các Cách Tạo Kết Nối:**
+
+- **Sử dụng SDK (Software Development Kit):**
+  - Facebook cung cấp SDK cho JavaScript, PHP, iOS, Android.
+  - Instagram cung cấp API dùng cho phần tích và chia sẻ nội dung.
+
+- **Sử dụng OAuth 2.0:**
+  - Đăng ký ứng dụng trên nền tảng mạng xã hội.
+  - Lấy Client ID và Client Secret.
+  - Triển khai quy trình xác thực OAuth.
+
+- **Webhooks:**
+  - Là một cơ chế cho phép nhận thông báo ngay lập tức khi có sự kiện.
+  - Dợc dàng kết nối và đồng bộ dữ liệu.
+
+- **API Key:**
+  - Cung cấp truy cập đối với những tác vụ đơn giản.
+  - Giới hạn tần suất và băng thông.
+
